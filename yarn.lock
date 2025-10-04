@@ -1035,7 +1035,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.6.0":
+"@types/node@npm:^24.6.2":
   version: 24.6.2
   resolution: "@types/node@npm:24.6.2"
   dependencies:
@@ -1694,7 +1694,7 @@ __metadata:
     "@syren-dev-tech/confects": "npm:^0.1.0"
     "@syren-dev-tech/confects-md": "npm:^0.1.0"
     "@syren-dev-tech/confetti": "npm:^0.1.0"
-    "@types/node": "npm:^24.6.0"
+    "@types/node": "npm:^24.6.2"
     "@types/react": "npm:^19.1.16"
     "@types/react-dom": "npm:^19.1.9"
     "@vitejs/plugin-react": "npm:^5.0.4"

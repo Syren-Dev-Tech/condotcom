@@ -31,7 +31,7 @@ const router = new CRouter(
 router.setElement(() => <App />)
 
 export default function Router() {
-    return <BrowserRouter>
+    return <BrowserRouter basename={import.meta.env.PUBLIC_URL}>
         <Routes>
             {markdownRouter(router, Route)}
         </Routes>
