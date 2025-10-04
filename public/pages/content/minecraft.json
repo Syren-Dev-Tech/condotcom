@@ -1,0 +1,19 @@
+{
+    "title": "Minecraft",
+    "layout": [
+        {
+            "content": [
+                {
+                    "content": {
+                        "href": "/pages/content/minecraft/conlib.md"
+                    }
+                },
+                {
+                    "content": {
+                        "href": "/pages/content/minecraft/rod.md"
+                    }
+                }
+            ]
+        }
+    ]
+}

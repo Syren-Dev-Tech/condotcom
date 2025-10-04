@@ -1,0 +1,4 @@
+@use '~themes'as themes;
+@use '@syren-dev-tech/confetti/main.scss';
+
+@include themes.themeify('tea');
