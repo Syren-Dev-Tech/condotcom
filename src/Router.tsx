@@ -30,8 +30,10 @@ const router = new CRouter(
 );
 router.setElement(() => <App />)
 
+const basename = import.meta.env.PUBLIC_URL || '/';
+
 export default function Router() {
-    return <HashRouter basename={import.meta.env.PUBLIC_URL}>
+    return <HashRouter basename={basename}>
         <Routes>
             {markdownRouter(router, Route)}
         </Routes>
