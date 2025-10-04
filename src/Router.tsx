@@ -1,5 +1,5 @@
 import { CRouter, markdownRouter } from "@syren-dev-tech/confects-md/routers";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 
 const router = new CRouter(
@@ -31,9 +31,9 @@ const router = new CRouter(
 router.setElement(() => <App />)
 
 export default function Router() {
-    return <BrowserRouter basename={import.meta.env.PUBLIC_URL}>
+    return <HashRouter basename={import.meta.env.PUBLIC_URL}>
         <Routes>
             {markdownRouter(router, Route)}
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
 }
